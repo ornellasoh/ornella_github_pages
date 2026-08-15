@@ -1,55 +1,75 @@
-# Portfolio GitHub Pages — Ornella Soh
+# Ornella Soh — Projects & Learning Lab
 
-Portfolio statique prêt pour GitHub Pages.
+Ce site GitHub Pages est volontairement **complémentaire au CV**.
 
-## Mise en ligne en 5 minutes
+Il ne reprend pas les expériences professionnelles. Il sert à montrer :
+- les projets personnels ;
+- les prototypes Lovable / no-code ;
+- les expérimentations IA ;
+- les mini-projets GitHub ;
+- les formations et compétences en cours d'acquisition.
 
-1. Crée un repository GitHub nommé exactement :
-   `TON-USERNAME.github.io`
+## Publication avec GitHub Pages
 
-2. Ajoute à la racine du repository :
-   - `index.html`
-   - `styles.css`
-   - `script.js`
+### 1. Créer le repository
+Crée un repository nommé :
 
-3. Dans GitHub :
-   **Settings → Pages → Build and deployment → Deploy from a branch**
+`TON-USERNAME.github.io`
 
-4. Sélectionne :
-   - Branch : `main`
-   - Folder : `/ (root)`
+### 2. Ajouter les fichiers
+Ajoute à la racine :
+- `index.html`
+- `styles.css`
+- `script.js`
 
-5. Ton site sera accessible sur :
-   `https://TON-USERNAME.github.io`
+### 3. Activer GitHub Pages
+Dans le repository :
 
-## Personnalisation importante
+`Settings → Pages → Deploy from a branch`
 
-Dans `index.html`, remplace les liens `href="#"` des cartes projets par les URLs de tes repositories GitHub.
+Puis :
+- Branch : `main`
+- Folder : `/ (root)`
+
+Le site sera disponible à :
+
+`https://TON-USERNAME.github.io`
+
+## Connecter tes projets Lovable
+
+Pour chaque projet Lovable, connecte-le à son propre repository GitHub.
 
 Exemple :
+- `find-my-coach`
+- `weight-tracker`
+- `aura-conseil`
+
+Puis dans `index.html`, remplace :
+
+```html
+<a href="#">Repository à connecter →</a>
+```
+
+par :
 
 ```html
 <a href="https://github.com/TON-USERNAME/find-my-coach">Voir le repository →</a>
 ```
 
-## Structure recommandée de ton GitHub
+## Organisation GitHub recommandée
 
-- `TON-USERNAME.github.io` → portfolio principal
+- `TON-USERNAME.github.io` — portfolio
 - `find-my-coach`
 - `weight-tracker`
 - `aura-conseil`
 - `pmo-performance-dashboard`
-- `ai-job-search-assistant`
+- `evm-cost-schedule-dashboard`
+- `risk-monte-carlo-simulator`
+- `personal-ai-assistant`
 
-## Conseil CV
+## Philosophie
 
-Une fois 3 à 5 projets propres publiés, ajoute ton GitHub dans l'en-tête de ton CV :
+Le portfolio doit montrer :
+**ce que je construis → ce que j'apprends → ce que je sais désormais faire.**
 
-`github.com/TON-USERNAME`
-
-et éventuellement une rubrique :
-
-**PROJETS SÉLECTIONNÉS**
-- PMO Performance Dashboard — Python / Streamlit / Project Controls
-- Find My Coach — Product / Marketplace / Payments
-- AI Assistant — Automation / n8n / Ollama / Notion
+Évite de recopier le CV : LinkedIn et le CV servent pour l'expérience professionnelle, GitHub sert pour les preuves.
