@@ -1,6 +1,15 @@
-# Ornella Soh — Projects & Learning Lab
+# Ornella Soh — Project, Data & AI Portfolio
 
-Ce site GitHub Pages est volontairement **complémentaire au CV**.
+Ce site GitHub Pages présente des preuves concrètes à l’intersection de la gestion de projet, de la data, de l’IA et de l’automatisation. Il reste volontairement **complémentaire au CV**.
+
+## Dernière refonte
+
+- positionnement professionnel visible dès l’accueil ;
+- projets réalisés séparés de la roadmap ;
+- Job Radar présenté comme projet phare ;
+- liens inactifs supprimés ;
+- appels à l’action LinkedIn, GitHub, email ;
+- navigation, mobile, accessibilité et référencement améliorés.
 
 Il ne reprend pas les expériences professionnelles. Il sert à montrer :
 - les projets personnels ;
