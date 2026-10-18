@@ -1,77 +1,209 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio d’Ornella Soh : gestion de projet, data, automatisation et intelligence artificielle appliquées à des produits concrets.">
-  <meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+  <meta name="theme-color" content="#f1f4f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141b24" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
   <meta property="og:title" content="Ornella Soh — Project, Data & AI Portfolio">
   <meta property="og:description" content="Des projets concrets à l’intersection de la gestion de projet, de la data et de l’IA.">
   <meta property="og:url" content="https://ornellasoh.github.io/ornella_github_pages/">
   <title>Ornella Soh | Project, Data & AI Portfolio</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Aller au contenu</a>
-  <div class="orb orb-a" aria-hidden="true"></div><div class="orb orb-b" aria-hidden="true"></div>
-  <header class="topbar"><nav class="container nav" aria-label="Navigation principale">
-    <a href="#top" class="brand" aria-label="Accueil Ornella Soh">OS<span>/LAB</span></a>
-    <div class="links"><a href="#projects">Projets</a><a href="#about">À propos</a><a href="#learning">Roadmap</a><a href="#stack">Compétences</a></div>
-    <div class="nav-actions"><a class="icon-link" href="https://github.com/ornellasoh" target="_blank" rel="noreferrer">GitHub ↗</a><a class="mini-btn" href="#contact">Me contacter</a></div>
-  </nav></header>
+
+  <header class="topbar">
+    <nav class="wrap nav" aria-label="Navigation principale">
+      <a href="#top" class="brand">Ornella Soh</a>
+      <div class="links">
+        <a href="#projets">Projets</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#methode">Méthode</a>
+        <a href="#outils">Outils</a>
+      </div>
+      <a href="#contact" class="nav-cta">Me contacter</a>
+    </nav>
+  </header>
 
   <main id="main">
-    <section id="top" class="hero container">
-      <div class="hero-copy">
-        <p class="kicker">PMO · PROJECT CONTROLS · DATA · AUTOMATION</p>
-        <h1>Ornella Soh</h1>
-        <p class="intro">Ingénieure généraliste avec environ cinq ans d’expérience en pilotage de projets industriels et internationaux. Je travaille sur la planification, les coûts, les risques, le reporting et l’automatisation des processus.</p>
-        <div class="hero-actions"><a href="#projects" class="btn">Découvrir mes projets</a><a href="https://www.linkedin.com/in/ornellasoh/" target="_blank" rel="noreferrer" class="btn ghost">Voir mon profil LinkedIn ↗</a></div>
-        <ul class="hero-proof"><li>Gestion de projet</li><li>Data visualisation</li><li>Automatisation</li><li>Prototypage produit</li></ul>
-      </div>
-      <aside class="glass focus-card"><span class="live-dot"><i></i> DISPONIBLE POUR ÉCHANGER</span><h2>Domaines</h2><p>PMO, Project Controls, transformation digitale, analyse de données et automatisation.</p></aside>
-    </section>
-
-    <section id="projects" class="section container">
-      <div class="section-title"><span>01</span><div><p class="kicker">PROJETS</p><h2>Projets sélectionnés</h2><p>Prototypes, outils et workflows réalisés ou en cours de développement.</p></div></div>
-      <div class="project-grid">
-        <article class="glass project featured project-wide">
-          <div class="project-head"><span class="tag">Data & Automation</span><span class="status">Prototype fonctionnel</span></div>
-          <div class="project-body"><div><p class="project-number">PROJET PHARE — 2026</p><h3>Job Radar — agrégateur d’offres</h3><p>Application Streamlit qui centralise des offres LinkedIn, Indeed et HelloWork, supprime les doublons et synchronise une sélection vers Notion.</p></div><dl class="impact-list"><div><dt>Besoin</dt><dd>Réduire le temps de veille et centraliser les opportunités.</dd></div><div><dt>Solution</dt><dd>Recherche multi-source, filtres, export CSV et suivi Notion.</dd></div><div><dt>Apport</dt><dd>Architecture modulaire, gestion des erreurs et secrets sécurisés.</dd></div></dl></div>
-          <div class="pills"><span>Python</span><span>Streamlit</span><span>Notion API</span><span>JobSpy</span><span>Data</span></div><span class="text-link unavailable">Repository en préparation</span>
-        </article>
-        <article class="glass project"><div class="project-head"><span class="tag">Marketplace</span><span class="status">En développement</span></div><h3>Find My Coach</h3><p>Plateforme de mise en relation entre coachs et utilisateurs : onboarding, profils, découverte et parcours marketplace.</p><div class="pills"><span>Product</span><span>UX</span><span>Payments</span><span>Base44</span></div><a href="https://find-my-coach.base44.app/become-coach" target="_blank" rel="noreferrer" class="text-link">Voir le prototype ↗</a></article>
-        <article class="glass project"><div class="project-head"><span class="tag">Health Tech</span><span class="status">Prototype</span></div><h3>Weight Tracker</h3><p>Application mobile de suivi du poids avec saisie quotidienne, objectifs, rappels et visualisation de la progression.</p><div class="pills"><span>FlutterFlow</span><span>Data</span><span>UX</span><span>Mobile</span></div><span class="text-link unavailable">Étude de cas à venir</span></article>
-        <article class="glass project"><div class="project-head"><span class="tag">Digital Strategy</span><span class="status">Refonte</span></div><h3>Aura Conseil</h3><p>Refonte d’un positionnement digital : architecture de l’offre, contenu, expérience utilisateur et identité visuelle.</p><div class="pills"><span>Web</span><span>Branding</span><span>Strategy</span><span>UX</span></div><span class="text-link unavailable">Présentation à venir</span></article>
-        <article class="glass project"><div class="project-head"><span class="tag">AI Media</span><span class="status">En cours</span></div><h3>FACTA DOC</h3><p>Chaîne de production documentaire couvrant recherche, narration, génération visuelle et montage assistés par IA.</p><div class="pills"><span>AI</span><span>Research</span><span>Video</span><span>Storytelling</span></div><span class="text-link unavailable">Documentation à venir</span></article>
+    <section id="top" class="hero wrap">
+      <p class="status-line"><i aria-hidden="true"></i>Disponible pour échanger</p>
+      <h1>Je planifie, je mesure, <span class="h-break">puis j’automatise.</span></h1>
+      <div class="hero-foot">
+        <p class="intro">Ingénieure généraliste, environ cinq ans de pilotage de projets industriels et internationaux&nbsp;: planification, coûts, risques, reporting. Ici, j’applique la même rigueur à mes propres produits data et IA.</p>
+        <div class="actions">
+          <a href="#projets" class="btn">Voir l’avancement des projets</a>
+          <a href="https://www.linkedin.com/in/ornellasoh/" target="_blank" rel="noreferrer" class="btn ghost">Profil LinkedIn</a>
+        </div>
       </div>
     </section>
 
-    <section id="about" class="section container about-section">
-      <div class="section-title"><span>02</span><div><p class="kicker">PROFIL</p><h2>À propos</h2></div></div>
-      <div class="about-grid"><div class="about-copy"><p>J’aime rendre les sujets complexes plus lisibles : structurer un projet, faire parler les données, automatiser une tâche répétitive ou transformer une idée en prototype testable.</p><p>Ce portfolio est mon terrain d’expérimentation. Il montre ma progression, mais surtout ma manière de travailler : partir d’un besoin, construire rapidement, puis améliorer avec méthode.</p></div><div class="glass value-list"><div><strong>Structurer</strong><span>Cadrage, priorités, risques et suivi.</span></div><div><strong>Analyser</strong><span>Données, indicateurs et aide à la décision.</span></div><div><strong>Automatiser</strong><span>Workflows simples, fiables et documentés.</span></div><div><strong>Transmettre</strong><span>Communication claire et vision produit.</span></div></div></div>
-    </section>
+    <section id="projets" class="board-section" aria-labelledby="projets-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="projets-title">Avancement des projets</h2>
+          <p>Chaque ligne est un projet personnel. La barre indique la phase atteinte&nbsp;; ouvrez une ligne pour le détail.</p>
+        </div>
 
-    <section id="learning" class="section container">
-      <div class="section-title"><span>03</span><div><p class="kicker">ROADMAP</p><h2>Prochains livrables</h2><p>Travaux planifiés pour approfondir les compétences en Project Controls et en analyse de données.</p></div></div>
-      <div class="learning-grid learning-compact">
-        <article class="glass learning-card priority"><div class="learning-top"><span class="level">PRIORITÉ 1</span><span>Project Controls</span></div><h3>PMO Performance Dashboard</h3><p>Portefeuille projets, KPI, risques, budget, planning et alertes.</p><small>Livrable : dashboard Streamlit documenté.</small></article>
-        <article class="glass learning-card priority"><div class="learning-top"><span class="level">PRIORITÉ 1</span><span>EVM</span></div><h3>Cost & Schedule Dashboard</h3><p>Analyse de PV, EV, AC, CPI, SPI, EAC et tendances de performance.</p><small>Livrable : cas pratique et visualisations.</small></article>
-        <article class="glass learning-card"><div class="learning-top"><span class="level secondary">PRIORITÉ 2</span><span>Risk Analytics</span></div><h3>Risk Monte Carlo Simulator</h3><p>Quantification probabiliste des risques coûts et délais.</p><small>Livrable : simulateur interactif.</small></article>
-        <article class="glass learning-card"><div class="learning-top"><span class="level secondary">EN CONTINU</span><span>Core skills</span></div><h3>Python, SQL & Power BI</h3><p>Analyse, automatisation, contrôle qualité et data storytelling.</p><small>Objectif : enrichir chaque projet publié.</small></article>
+        <div class="board">
+          <div class="board-scale" aria-hidden="true">
+            <span>Projet</span>
+            <ol class="phases"><li>Cadrage</li><li>Conception</li><li>Prototype</li><li>Déploiement</li></ol>
+          </div>
+
+          <details class="row" open>
+            <summary>
+              <span class="row-name"><strong>Job Radar</strong><small>Data &amp; automation</small></span>
+              <span class="track flag-inside" style="--done:3;--partial:0"><span class="bar"></span><span class="flag">Prototype fonctionnel</span></span>
+            </summary>
+            <div class="row-detail">
+              <p class="lead">Application Streamlit qui centralise des offres LinkedIn, Indeed et HelloWork, supprime les doublons et synchronise une sélection vers Notion.</p>
+              <dl class="facts">
+                <div><dt>Besoin</dt><dd>Réduire le temps de veille et centraliser les opportunités.</dd></div>
+                <div><dt>Solution</dt><dd>Recherche multi-source, filtres, export CSV et suivi Notion.</dd></div>
+                <div><dt>Apport</dt><dd>Architecture modulaire, gestion des erreurs et secrets sécurisés.</dd></div>
+              </dl>
+              <p class="tools">Python, Streamlit, Notion API, JobSpy</p>
+              <p class="pending">Repository en préparation</p>
+            </div>
+          </details>
+
+          <details class="row">
+            <summary>
+              <span class="row-name"><strong>Find My Coach</strong><small>Marketplace</small></span>
+              <span class="track" style="--done:2;--partial:.6"><span class="bar"></span><span class="flag">En développement</span></span>
+            </summary>
+            <div class="row-detail">
+              <p class="lead">Plateforme de mise en relation entre coachs et utilisateurs&nbsp;: onboarding, profils, découverte et parcours marketplace.</p>
+              <p class="tools">Product, UX, paiements, Base44</p>
+              <a href="https://find-my-coach.base44.app/become-coach" target="_blank" rel="noreferrer" class="link">Ouvrir le prototype</a>
+            </div>
+          </details>
+
+          <details class="row">
+            <summary>
+              <span class="row-name"><strong>Weight Tracker</strong><small>Health tech</small></span>
+              <span class="track" style="--done:2;--partial:.85"><span class="bar"></span><span class="flag">Prototype</span></span>
+            </summary>
+            <div class="row-detail">
+              <p class="lead">Application mobile de suivi du poids avec saisie quotidienne, objectifs, rappels et visualisation de la progression.</p>
+              <p class="tools">FlutterFlow, data, UX, mobile</p>
+              <p class="pending">Étude de cas à venir</p>
+            </div>
+          </details>
+
+          <details class="row">
+            <summary>
+              <span class="row-name"><strong>Aura Conseil</strong><small>Stratégie digitale</small></span>
+              <span class="track" style="--done:1;--partial:.6"><span class="bar"></span><span class="flag">Refonte</span></span>
+            </summary>
+            <div class="row-detail">
+              <p class="lead">Refonte d’un positionnement digital&nbsp;: architecture de l’offre, contenu, expérience utilisateur et identité visuelle.</p>
+              <p class="tools">Web, branding, stratégie, UX</p>
+              <p class="pending">Présentation à venir</p>
+            </div>
+          </details>
+
+          <details class="row">
+            <summary>
+              <span class="row-name"><strong>FACTA DOC</strong><small>Médias IA</small></span>
+              <span class="track" style="--done:1;--partial:.35"><span class="bar"></span><span class="flag">En cours</span></span>
+            </summary>
+            <div class="row-detail">
+              <p class="lead">Chaîne de production documentaire couvrant recherche, narration, génération visuelle et montage assistés par IA.</p>
+              <p class="tools">IA, recherche, vidéo, storytelling</p>
+              <p class="pending">Documentation à venir</p>
+            </div>
+          </details>
+
+          <p class="legend"><span class="key key-done" aria-hidden="true"></span>Phase terminée <span class="key key-wip" aria-hidden="true"></span>Phase en cours</p>
+        </div>
       </div>
     </section>
 
-    <section id="stack" class="section container">
-      <div class="section-title"><span>04</span><div><p class="kicker">CAPABILITIES</p><h2>Compétences & outils.</h2><p>Des outils choisis pour résoudre un problème — jamais comme une simple liste de mots-clés.</p></div></div>
-      <div class="stack-grid"><div class="glass stack-card"><strong>Project & Controls</strong><span>Planification</span><span>Risques</span><span>KPI & reporting</span><span>EVM</span></div><div class="glass stack-card"><strong>Data</strong><span>Power BI</span><span>Excel</span><span>SQL</span><span>Python</span><span>Streamlit</span></div><div class="glass stack-card"><strong>AI & Automation</strong><span>ChatGPT</span><span>Ollama</span><span>n8n</span><span>Notion API</span></div><div class="glass stack-card"><strong>Product & No-code</strong><span>Base44</span><span>FlutterFlow</span><span>Lovable</span><span>WordPress</span><span>Canva</span></div></div>
+    <section id="roadmap" class="wrap section" aria-labelledby="roadmap-title">
+      <div class="section-head">
+        <h2 id="roadmap-title">Prochains jalons</h2>
+        <p>Les livrables planifiés pour approfondir le Project Controls et l’analyse de données, par ordre de priorité.</p>
+      </div>
+      <ol class="milestones">
+        <li class="ms ms-p1">
+          <span class="ms-when">Priorité 1</span>
+          <h3>PMO Performance Dashboard</h3>
+          <p>Portefeuille projets, KPI, risques, budget, planning et alertes.</p>
+          <p class="ms-out">Livrable&nbsp;: dashboard Streamlit documenté</p>
+        </li>
+        <li class="ms ms-p1">
+          <span class="ms-when">Priorité 1</span>
+          <h3>Cost &amp; Schedule Dashboard</h3>
+          <p>Analyse EVM&nbsp;: PV, EV, AC, CPI, SPI, EAC et tendances de performance.</p>
+          <p class="ms-out">Livrable&nbsp;: cas pratique et visualisations</p>
+        </li>
+        <li class="ms ms-p2">
+          <span class="ms-when">Priorité 2</span>
+          <h3>Risk Monte Carlo Simulator</h3>
+          <p>Quantification probabiliste des risques coûts et délais.</p>
+          <p class="ms-out">Livrable&nbsp;: simulateur interactif</p>
+        </li>
+        <li class="ms ms-ongoing">
+          <span class="ms-when">En continu</span>
+          <h3>Python, SQL &amp; Power BI</h3>
+          <p>Analyse, automatisation, contrôle qualité et data storytelling.</p>
+          <p class="ms-out">Objectif&nbsp;: enrichir chaque projet publié</p>
+        </li>
+      </ol>
     </section>
 
-    <section id="contact" class="section container"><div class="glass contact-card"><p class="kicker">LET’S TALK</p><h2>Un projet, une opportunité ou simplement une idée à partager ?</h2><p>Je serais ravie d’échanger autour de la gestion de projet, de la data, de l’IA et des usages concrets de l’automatisation.</p><div class="hero-actions"><a href="mailto:ornellasoh@yahoo.com" class="btn">M’écrire par email</a><a href="https://www.linkedin.com/in/ornellasoh/" target="_blank" rel="noreferrer" class="btn ghost">Me contacter sur LinkedIn ↗</a></div></div></section>
+    <section id="methode" class="wrap section method" aria-labelledby="methode-title">
+      <div class="method-copy">
+        <h2 id="methode-title">Rendre lisible ce qui est complexe</h2>
+        <p>Structurer un projet, faire parler les données, automatiser une tâche répétitive ou transformer une idée en prototype testable&nbsp;: c’est le fil commun de ce que je fais.</p>
+        <p>Ce portfolio est mon terrain d’expérimentation. Il montre ma progression, mais surtout ma manière de travailler&nbsp;: partir d’un besoin, construire vite, puis améliorer avec méthode.</p>
+      </div>
+      <dl class="verbs">
+        <div><dt>Structurer</dt><dd>Cadrage, priorités, risques et suivi.</dd></div>
+        <div><dt>Analyser</dt><dd>Données, indicateurs et aide à la décision.</dd></div>
+        <div><dt>Automatiser</dt><dd>Workflows simples, fiables et documentés.</dd></div>
+        <div><dt>Transmettre</dt><dd>Communication claire et vision produit.</dd></div>
+      </dl>
+    </section>
+
+    <section id="outils" class="wrap section" aria-labelledby="outils-title">
+      <div class="section-head">
+        <h2 id="outils-title">Compétences et outils</h2>
+        <p>Choisis pour résoudre un problème précis, pas pour remplir une liste.</p>
+      </div>
+      <div class="stack">
+        <div><h3>Project &amp; Controls</h3><ul><li>Planification</li><li>Risques</li><li>KPI et reporting</li><li>EVM</li></ul></div>
+        <div><h3>Data</h3><ul><li>Power BI</li><li>Excel</li><li>SQL</li><li>Python</li><li>Streamlit</li></ul></div>
+        <div><h3>IA &amp; automatisation</h3><ul><li>ChatGPT</li><li>Ollama</li><li>n8n</li><li>Notion API</li></ul></div>
+        <div><h3>Produit &amp; no-code</h3><ul><li>Base44</li><li>FlutterFlow</li><li>Lovable</li><li>WordPress</li><li>Canva</li></ul></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <h2 id="contact-title">Un projet, une opportunité ou une idée à partager&nbsp;?</h2>
+        <p>Je serais ravie d’échanger autour de la gestion de projet, de la data, de l’IA et des usages concrets de l’automatisation.</p>
+        <a class="mail" href="mailto:ornellasoh@yahoo.com">ornellasoh@yahoo.com</a>
+        <p class="contact-alt"><a href="https://www.linkedin.com/in/ornellasoh/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/ornellasoh" target="_blank" rel="noreferrer">GitHub</a></p>
+      </div>
+    </section>
   </main>
-  <footer class="container footer"><div><strong>Ornella Soh — Project, Data & AI</strong><p>Concevoir. Structurer. Automatiser.</p></div><div class="footer-links"><a href="https://github.com/ornellasoh" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/ornellasoh/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:ornellasoh@yahoo.com">Email ↗</a></div></footer>
+
+  <footer class="wrap footer">
+    <p>Ornella Soh, Project, Data &amp; AI</p>
+    <p>Concevoir, structurer, automatiser.</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>

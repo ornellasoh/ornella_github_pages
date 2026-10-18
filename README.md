@@ -2,14 +2,14 @@
 
 Ce site GitHub Pages présente des preuves concrètes à l’intersection de la gestion de projet, de la data, de l’IA et de l’automatisation. Il reste volontairement **complémentaire au CV**.
 
-## Dernière refonte
+## Dernière refonte (octobre 2026)
 
-- positionnement professionnel visible dès l’accueil ;
-- projets réalisés séparés de la roadmap ;
-- Job Radar présenté comme projet phare ;
-- liens inactifs supprimés ;
-- appels à l’action LinkedIn, GitHub, email ;
-- navigation, mobile, accessibilité et référencement améliorés.
+Le site est pensé comme un tableau de pilotage de projet :
+
+- les projets sont présentés comme un planning par phases (Cadrage, Conception, Prototype, Déploiement) ; chaque ligne se déplie pour afficher le détail ;
+- la roadmap devient une ligne de jalons classés par priorité ;
+- une seule police (Schibsted Grotesk), avec un mode clair et un mode sombre automatiques ;
+- pour changer l’avancement d’un projet, modifiez `--done` (phases terminées) et `--partial` (part de la phase en cours, entre 0 et 1) sur la ligne `.track` dans `index.html`.
 
 Il ne reprend pas les expériences professionnelles. Il sert à montrer :
 - les projets personnels ;

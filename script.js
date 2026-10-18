@@ -1,17 +1,16 @@
-const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+// Fill the project bars once, when the board first scrolls into view.
+const board = document.querySelector('.board');
 
-if (!reducedMotion && 'IntersectionObserver' in window) {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
+if (board) {
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) {
+        board.classList.add('is-live');
+        observer.disconnect();
       }
-    });
-  }, { threshold: .08 });
-
-  document.querySelectorAll('.glass,.section-title').forEach((element) => {
-    element.classList.add('reveal');
-    observer.observe(element);
-  });
+    }, { threshold: .25 });
+    observer.observe(board);
+  } else {
+    board.classList.add('is-live');
+  }
 }
