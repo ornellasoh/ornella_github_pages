@@ -1,3 +1,11 @@
+// Show the header's scroll edge only while content runs underneath it.
+const topbar = document.querySelector('.topbar');
+if (topbar) {
+  const updateEdge = () => topbar.classList.toggle('is-scrolled', window.scrollY > 4);
+  updateEdge();
+  window.addEventListener('scroll', updateEdge, { passive: true });
+}
+
 // Fill the project bars once, when the board first scrolls into view.
 const board = document.querySelector('.board');
 
