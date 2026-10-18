@@ -8,7 +8,7 @@ Le site est pensé comme un tableau de pilotage de projet :
 
 - les projets sont présentés comme un planning par phases (Cadrage, Conception, Prototype, Déploiement) ; chaque ligne se déplie pour afficher le détail ;
 - la roadmap devient une ligne de jalons classés par priorité ;
-- une seule police (Schibsted Grotesk), avec un mode clair et un mode sombre automatiques ;
+- style inspiré d’Apple : police système SF (Inter en secours), fond gris clair, cartes arrondies, mode clair et sombre automatiques ;
 - pour changer l’avancement d’un projet, modifiez `--done` (phases terminées) et `--partial` (part de la phase en cours, entre 0 et 1) sur la ligne `.track` dans `index.html`.
 
 Il ne reprend pas les expériences professionnelles. Il sert à montrer :

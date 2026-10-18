@@ -14,7 +14,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script>document.documentElement.classList.add('js')</script>
 </head>
@@ -79,13 +79,30 @@
 
           <details class="row">
             <summary>
+              <span class="row-name"><strong>JobFlow</strong><small>Recherche d’emploi &amp; IA</small></span>
+              <span class="track" style="--done:2;--partial:.5"><span class="bar"></span><span class="flag">En développement</span></span>
+            </summary>
+            <div class="row-detail">
+              <p class="lead">Web app personnelle pour préparer CV et lettres, suivre les candidatures et retrouver les relances du jour, sur ordinateur et sur mobile.</p>
+              <dl class="facts">
+                <div><dt>Suivi</dt><dd>Tableau Kanban, relances, notes, historique et archives des refus.</dd></div>
+                <div><dt>Génération</dt><dd>CV et lettre adaptés à l’offre avec Gemini ou DeepSeek, puis export Word.</dd></div>
+                <div><dt>Confidentialité</dt><dd>Profil, documents et base SQLite restent en local.</dd></div>
+              </dl>
+              <p class="tools">Python, JavaScript, SQLite, Gemini, DeepSeek</p>
+              <a href="https://github.com/ornellasoh/jobflow" target="_blank" rel="noreferrer" class="link">Voir le code sur GitHub</a>
+            </div>
+          </details>
+
+          <details class="row">
+            <summary>
               <span class="row-name"><strong>Find My Coach</strong><small>Marketplace</small></span>
               <span class="track" style="--done:2;--partial:.6"><span class="bar"></span><span class="flag">En développement</span></span>
             </summary>
             <div class="row-detail">
-              <p class="lead">Plateforme de mise en relation entre coachs et utilisateurs&nbsp;: onboarding, profils, découverte et parcours marketplace.</p>
-              <p class="tools">Product, UX, paiements, Base44</p>
-              <a href="https://find-my-coach.base44.app/become-coach" target="_blank" rel="noreferrer" class="link">Ouvrir le prototype</a>
+              <p class="lead">Plateforme de mise en relation entre coachs et utilisateurs&nbsp;: onboarding, profils, découverte et parcours marketplace, sur le web et en application mobile.</p>
+              <p class="tools">Claude Code, Google Flow, Supabase, Capacitor</p>
+              <a href="https://github.com/ornellasoh/Find_my_coach" target="_blank" rel="noreferrer" class="link">Voir le code sur GitHub</a>
             </div>
           </details>
 
@@ -110,18 +127,6 @@
               <p class="lead">Refonte d’un positionnement digital&nbsp;: architecture de l’offre, contenu, expérience utilisateur et identité visuelle.</p>
               <p class="tools">Web, branding, stratégie, UX</p>
               <p class="pending">Présentation à venir</p>
-            </div>
-          </details>
-
-          <details class="row">
-            <summary>
-              <span class="row-name"><strong>FACTA DOC</strong><small>Médias IA</small></span>
-              <span class="track" style="--done:1;--partial:.35"><span class="bar"></span><span class="flag">En cours</span></span>
-            </summary>
-            <div class="row-detail">
-              <p class="lead">Chaîne de production documentaire couvrant recherche, narration, génération visuelle et montage assistés par IA.</p>
-              <p class="tools">IA, recherche, vidéo, storytelling</p>
-              <p class="pending">Documentation à venir</p>
             </div>
           </details>
 
@@ -185,7 +190,7 @@
       <div class="stack">
         <div><h3>Project &amp; Controls</h3><ul><li>Planification</li><li>Risques</li><li>KPI et reporting</li><li>EVM</li></ul></div>
         <div><h3>Data</h3><ul><li>Power BI</li><li>Excel</li><li>SQL</li><li>Python</li><li>Streamlit</li></ul></div>
-        <div><h3>IA &amp; automatisation</h3><ul><li>ChatGPT</li><li>Ollama</li><li>n8n</li><li>Notion API</li></ul></div>
+        <div><h3>IA &amp; automatisation</h3><ul><li>Claude Code</li><li>ChatGPT</li><li>Google Flow</li><li>Ollama</li><li>n8n</li><li>Notion API</li></ul></div>
         <div><h3>Produit &amp; no-code</h3><ul><li>Base44</li><li>FlutterFlow</li><li>Lovable</li><li>WordPress</li><li>Canva</li></ul></div>
       </div>
     </section>
